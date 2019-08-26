@@ -18,6 +18,7 @@ Request object has multiple attributes :
 - headers : dictionnary of headers parameters/values
 - is_request : boolean (True)
 - is_response : boolean (False)
+- is_in_scope : boolean
 - method : string HTTP method
 - path : string url
 - http_version : string like HTTP/1.1
@@ -27,6 +28,7 @@ Response object has multiple attributes :
 - headers : dictionnary of headers parameters/values
 - is_request : boolean (False)
 - is_response : boolean (True)
+- is_in_scope : boolean
 - http_version : string (ex: HTTP/1.1)
 - response_code : int (ex: 200)
 - response_value : string (ex: OK)
