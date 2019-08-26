@@ -3,6 +3,7 @@
 Burp Scripter Plus adds an extra proxy layer to Burp with a simple Python interface.
 
 Browser -> BURP -> BurpScripterPlus -> Website
+
 Browser <- BURP <- BurpScripterPlus <- Website
 
 This project is a fork of "Python Scripter" (https://github.com/portswigger/python-scripter) with some new features :
